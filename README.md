@@ -1,7 +1,19 @@
 
-# Vidstar - A Movie/Show Information Website
+# Vidstar - A Movie/Show Information Website built using Next.js, React, Tailwind CSS
 
 #Click [here] () to check it out!
+
+
+# Description
+- Vidstar is a platform that helps you find some information about movies and when it was released and how many people have upvoted it. I am getting the data from the movie database.org
+
+
+# Tech Stack
+- Next.js
+- React
+- Tailwind.css
+- Javascript
+- CSS
 
 ## Getting Started
 
@@ -12,6 +24,10 @@ npm run dev
 # or
 yarn dev
 ```
+
+## How it works
+![Demo] (https://github.com/afzaanhakim/vidstar/blob/main/assets/vidstar.gif?raw=true)
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
