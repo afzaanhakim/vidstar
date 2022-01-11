@@ -4,6 +4,7 @@ import Vidstar from "../assets/Vidstar.png";
 import HeaderItem from "./HeaderItem";
 import { useRouter } from "next/router";
 import Results from "./Results";
+
 import {
   BeakerIcon,
   HomeIcon,
@@ -23,7 +24,7 @@ import search from '../utils/requests'
 
 
 
-const API_KEY=process.env.API_KEY;
+const API_KEY=process.env.NEXT_PUBLIC_API_KEY;
 
 
 const Header = ({request}) => {
