@@ -19,9 +19,11 @@ import { useState } from "react";
 import SearchResult from "./SearchResult.js";
 import Nav from "./Nav";
 import search from '../utils/requests'
-import API_KEY from './api.js' //get your api key from the TMDB api
+ 
 
 
+
+const API_KEY=process.env.API_KEY;
 console.log(search)
 
 const Header = ({request}) => {
