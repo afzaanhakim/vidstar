@@ -1,7 +1,7 @@
 
-# Vidstar - A Movie/Show Information Website built using Next.js, React, Tailwind CSS
+# Vidstar - A Movie/Show Information WebApp built using Next.js, React, Tailwind CSS
 
-#Click [here](https://vidstar.vercel.app/) to check it out!
+# Click [here](https://vidstar.vercel.app/) to check it out!
 
 
 # Description
