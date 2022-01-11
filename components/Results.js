@@ -3,7 +3,6 @@ import FlipMove from 'react-flip-move';
 
 
 const Results = ({results}) => {
-
   const resultItem = results.map(result => (
     <Thumbnail key={result.id} result={result}/>
   ))

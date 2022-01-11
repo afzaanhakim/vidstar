@@ -28,6 +28,6 @@
 
  @layer base {
    body {
-     @apply bg-gradient-to-r from-yellow-600 via-orange-400 to-blue-300 text-gray-400;
+     @apply bg-gradient-to-r from-yellow-600 via-red-400 to-blue-300 text-gray-400;
    }
  }
