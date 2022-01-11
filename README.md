@@ -1,7 +1,7 @@
 
 # Vidstar - A Movie/Show Information Website built using Next.js, React, Tailwind CSS
 
-#Click [here] () to check it out!
+#Click [here](https://vidstar.vercel.app/) to check it out!
 
 
 # Description
@@ -26,7 +26,7 @@ yarn dev
 ```
 
 ## How it works
-![Demo] (https://github.com/afzaanhakim/vidstar/blob/main/assets/vidstar.gif?raw=true)
+![Demo](https://github.com/afzaanhakim/vidstar/blob/main/assets/vidstar.gif?raw=true)
 
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
