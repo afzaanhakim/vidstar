@@ -17,7 +17,7 @@ import {
 const Header = () => {
   return (
     <header className="flex flex-col sm:flex-row mr-5 ml-5 mt-1  justify-between items-center h-auto">
-      <div className="flex flex-grow justify-evely max-w-2xl">
+      <div className="flex  flex-grow justify-evely max-w-2xl  ">
         <HeaderItem title="HOME" Icon={HomeIcon} />
         <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
         <HeaderItem title="COLLECTIONS" Icon={CollectionIcon} />
