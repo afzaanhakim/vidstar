@@ -75,7 +75,6 @@ const Header = ({request}) => {
             Icon={CollectionIcon}
             data={"fetchTopRated"}
           />
-          <HeaderItem title="ACCOUNT" Icon={UserIcon} />
         </div>
         <Image
           className="object-contain"
