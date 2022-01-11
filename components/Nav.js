@@ -7,7 +7,7 @@ const Nav = () => {
   const itemLooper = (requests) => {
     console.log(requests);
     const items = Object.entries(requests).map(([key, { title, url }]) => (
-      <h2 key={key} onClick={() => router.push(`/?genre=${key}`)} className='last:pr-1 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-black active:text-red-900 text-pink-900 '>{title}</h2>
+      <h2 key={key} onClick={() => router.push(`/?genre=${key}`)} className='last:pr-1 cursor-pointer transition duration-100 transform hover:scale-125 hover:text-black active:text-white text-pink-900 '>{title}</h2>
     ));
     return items;
   };

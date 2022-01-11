@@ -1,10 +1,11 @@
 import { ThumbUpIcon } from "@heroicons/react/outline";
 import Image from "next/image";
+import { forwardRef } from "react";
 
 const Thumbnail = ({ result }) => {
   const BASE_URL = "https://image.tmdb.org/t/p/original/";
   return (
-    <div className="p-3 transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50 group cursor-pointer ">
+    <div  className="p-3 transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50 group cursor-pointer ">
       <Image
       className="rounded-t-lg rounded-b-lg"
         layout="responsive"

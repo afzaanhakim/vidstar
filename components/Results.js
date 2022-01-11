@@ -1,4 +1,6 @@
 import Thumbnail from './Thumbnail.js';
+import FlipMove from 'react-flip-move';
+
 
 const Results = ({results}) => {
 
