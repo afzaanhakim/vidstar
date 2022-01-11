@@ -21,7 +21,6 @@ export default function Home({results}) {
 }
 
 export async function getServerSideProps(context) {
-  console.log(context, "is context")
   const genre = context.query.genre;
   const request = await fetch(
     `https://api.themoviedb.org/3${

@@ -24,7 +24,7 @@ import search from '../utils/requests'
 
 
 const API_KEY=process.env.API_KEY;
-console.log(search)
+
 
 const Header = ({request}) => {
   const router = useRouter();
@@ -37,7 +37,7 @@ const Header = ({request}) => {
   const onChange = (event) => {
     event.preventDefault();
     const query = event.target.value;
-    console.log(query);
+    
     setQuery(query);
     setInput(query)
   };
@@ -49,16 +49,16 @@ const Header = ({request}) => {
       `https://api.themoviedb.org/3/search/movie?query=${query}&api_key=${API_KEY}`
     ).then(((result) => 
     result.json()));
-   console.log(request)
+   
    setShow(true);
    setResult(request.results);
    setQuery('')
-   console.log("state", result)
+
    return request.results}
   };
 
   const onCloseSearch = () => {
-    console.log(show)
+    
     setShow(false);
   }
 
